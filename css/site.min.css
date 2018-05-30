@@ -1,4 +1,45 @@
 /*!
- * Prototype Template -  v0.1.1 (https://www.adamjolicoeur.com/prototype-template)
+ * Prototype Template -  v0.1.1 (https://www.adamjolicoeur.com/feature-flag-prototype)
  * Copyright 2018-2018 Adam J. Jolicoeur
  */
+.navbar-dark-top {
+  background-color: #030303;
+  border-top: 2px solid #c00;
+  padding: 0rem 1rem; }
+
+.navbar-dark-subnav {
+  height: 33px;
+  font-size: .8rem;
+  background-color: #292e34;
+  border-bottom: 1px solid #030303;
+  padding: 0rem 1rem; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #d1d1d1; }
+  .navbar-dark .navbar-nav .nav-link-recent {
+    width: 250px;
+    color: #d1d1d1;
+    text-align: left; }
+
+.nav-item {
+  min-width: 75px;
+  text-align: center; }
+  .nav-item.active {
+    background-color: #292e34;
+    background-image: linear-gradient(180deg, #4d5258 0, #292e34);
+    border-bottom: 1px solid #292e34; }
+  .nav-item-subnav-active {
+    background-color: transparent; }
+    .nav-item-subnav-active a.nav-link {
+      /* stylelint-disable */
+      color: #0088ce !important;
+      /* stylelint-enable */
+      border-bottom: 2px solid #0088ce;
+      padding: 4px 2px; }
+  .nav-item-recent {
+    width: 260px; }
+
+.planner-background-image {
+  background: url("../img/planner_screenshot.png");
+  background-repeat: no-repeat;
+  height: 100vh; }
