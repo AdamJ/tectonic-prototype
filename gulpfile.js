@@ -43,8 +43,7 @@ gulp.task('sass', ['lint-sass'], function () {
     .pipe(gulp.dest('css'))
     .pipe(browserSync.reload({
       stream: true
-    }))
-    .pipe(notify("CSS compiled")); // remove this line if you do not want notifications
+    }));
 });
 
 // ensure sass finishes, reload browser
