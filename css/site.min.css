@@ -74,13 +74,12 @@ body {
   bottom: 50px;
   right: 50px;
   display: block;
-  opacity: .3;
   width: 48px;
   height: 48px;
   line-height: 50px;
   border-radius: 8px;
   text-align: center;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 2px 4px #8b8d8f;
   font-size: 20px;
   font-weight: 700;
@@ -90,9 +89,12 @@ body {
     color: var(--feature-flag-color--beta); }
   .round-fab.experimental {
     color: var(--feature-flag-color--experimental); }
+  .round-fab .fa-flask {
+    opacity: .5; }
   .round-fab:hover {
-    opacity: 1;
-    cursor: question; }
+    cursor: pointer; }
+    .round-fab:hover .fa-flask {
+      opacity: 1; }
   .round-fab-info {
     color: #0088ce;
     margin-right: 5px; }
@@ -117,18 +119,3 @@ body {
       .round-fab-fab-tooltip ul li span {
         padding-right: 8px;
         color: #39a5dc; }
-
-.tooltip.bs-tooltip-top {
-  min-height: 100px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid #bbb;
-  color: #72767b;
-  box-shadow: 0 6px 10px #bbb; }
-  .tooltip.bs-tooltip-top .arrow {
-    display: none; }
-  .tooltip.bs-tooltip-top .tooltip-inner {
-    background-color: transparent;
-    color: #303030;
-    text-align: left;
-    font-size: .8rem; }
