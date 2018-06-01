@@ -47,7 +47,19 @@ body {
       border-bottom: 2px solid #0088ce;
       padding: 4px 2px; }
   .nav-item-recent {
-    width: 260px; }
+    width: 260px;
+    border-right: 1px solid grey; }
+
+.dropdown-toggle::after {
+  display: none; }
+
+.dropdown-menu {
+  width: 260px;
+  margin-top: 0;
+  border-radius: 0; }
+
+.dropdown-item {
+  padding-left: .5rem; }
 
 .planner-background-image {
   background: url("../img/planner_screenshot.png");
@@ -56,6 +68,11 @@ body {
 
 .analyze-background-image {
   background: url("../img/analyze_screenshot.png");
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.home-background-image {
+  background: url("../img/home_screenshot.png");
   background-repeat: no-repeat;
   height: 100vh; }
 

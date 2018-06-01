@@ -44,6 +44,19 @@
   }
   &-recent {
     width: 260px;
+    border-right:1px solid grey;
   }
 }
-
+.dropdown-toggle {
+  &::after {
+    display: none;
+  }
+}
+.dropdown-menu {
+  width: 260px;
+  margin-top: 0;
+  border-radius: 0;
+}
+.dropdown-item {
+  padding-left: .5rem;
+}
