@@ -104,17 +104,22 @@ body {
   margin-right: 40px;
   background-image: url("../img/flask_1_none.svg");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  opacity: .7; }
   .round-fab.beta {
     color: var(--feature-flag-color--beta);
     background-image: url("../img/flask_3_beta.svg");
     background-repeat: no-repeat;
     background-position: center; }
+    .round-fab.beta:hover {
+      opacity: 1; }
   .round-fab.experimental {
     color: var(--feature-flag-color--experimental);
     background-image: url("../img/flask_4_exp.svg");
     background-repeat: no-repeat;
     background-position: center; }
+    .round-fab.experimental:hover {
+      opacity: 1; }
   .round-fab .fa-flask {
     opacity: .5; }
   .round-fab:hover {

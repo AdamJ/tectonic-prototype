@@ -30,17 +30,24 @@
   background-image: url('../img/flask_1_none.svg');
   background-repeat: no-repeat;
   background-position: center;
+  opacity: .7;
   &.beta {
     color: var(--feature-flag-color--beta);
     background-image: url('../img/flask_3_beta.svg');
     background-repeat: no-repeat;
     background-position: center;
+    &:hover {
+      opacity: 1;
+    }
   }
   &.experimental {
     color: var(--feature-flag-color--experimental);
     background-image: url('../img/flask_4_exp.svg');
     background-repeat: no-repeat;
     background-position: center;
+    &:hover {
+      opacity: 1;
+    }
   }
   .fa-flask {
     opacity: .5;
