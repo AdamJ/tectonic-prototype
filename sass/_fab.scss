@@ -27,11 +27,20 @@
   font-weight: 700;
   float: right;
   margin-right: 40px;
+  background-image: url('../img/flask_1_none.svg');
+  background-repeat: no-repeat;
+  background-position: center;
   &.beta {
     color: var(--feature-flag-color--beta);
+    background-image: url('../img/flask_3_beta.svg');
+    background-repeat: no-repeat;
+    background-position: center;
   }
   &.experimental {
     color: var(--feature-flag-color--experimental);
+    background-image: url('../img/flask_4_exp.svg');
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .fa-flask {
     opacity: .5;
