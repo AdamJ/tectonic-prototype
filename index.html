@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Prototype Template">
   <meta name="author" content="Author Name">
-  <title>Feature Flag Prototype</title>
+  <title>Tectonic Prototype</title>
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- Custom styles for this template -->
@@ -12,59 +12,33 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark navbar-dark-top">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown nav-item-recent">
-          <a class="nav-link dropdown-toggle nav-link-recent" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="fa fa-user"></span> UXD Test User <span class="fa fa-angle-down" style="float: right; margin-top: 5px;"></span>
+  <nav class="navbar navbar-expand-sm navbar-dark navbar-dark-top fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="img/tectonic-logo.svg">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end;">
+      <ul class="navbar-nav my-2 my-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-user"></i> admin <i class="fa fa-caret-down"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="analyze.html">
-              <span class="fa fa-th-large"></span> openshiftio
-            </a>
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <span class="fas fa-plus-circle"></span> Create space
-            </a>
-            <a class="dropdown-item" href="#">
-              <span class="fa fa-user"></span> My Spaces
-            </a>
-            <a class="dropdown-item" href="#">
-              <span class="fa fa-th"></span> View all Spaces
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="index.html">
-              <span class="fa fa-home"></span> Account Home
-            </a>
+            <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
       </ul>
     </div>
   </nav>
-  <main class="home-background-image">
-    <button type="button" class="round-fab experimental" data-html="true" data-container="body" data-toggle="popover" data-placement="top"
-    data-content="<strong style='opacity: .8;'>There are 2 experimental features and 1 beta feature on this page.</strong><br />
-      <ul class='round-fab-feature-list'>
-        <li>
-          <strong>Beta Feature</strong>
-        </li>
-        <li>Updates banner</li>
-        <li><hr></li>
-        <li>
-          <strong>Experimental Features</strong>
-        </li>
-        <li>Work Item Overview widget</li>
-        <li>Applications widget</li>
-        <li><hr></li>
-        <li class='feature-opt-in'>
-          <a href='#'>
-            <span class='fa fa-external-link-alt round-fab-info'></span> Feature Opt-in
-          </a>
-        </li>
-      </ul>">
-      <span class="experimental-flask"></span>
-    </button>
+  <main>
+    <div class="left-column" style="position: fixed; left: 0; top: 48px;">
+      <img src="img/navbar_no_context.png">
+    </div>
+    <div class="center-content" style="margin-top: 15px; margin-left: 180px;">
+      <img src="img/prototype-copy.png" style=" max-width: 100%;">
+    </div>
   </main>
 
   <!-- Bootstrap core JavaScript -->

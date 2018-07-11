@@ -1,8 +1,8 @@
 {
-  "name": "feature-flag-prototype",
+  "name": "tectonic-prototype",
   "version": "0.1.1",
-  "description": "A prototype for feature flag testing",
-  "homepage": "https://www.adamjolicoeur.com/feature-flag-prototype",
+  "description": "A prototype for tectonic ui testing",
+  "homepage": "https://www.adamjolicoeur.com/tectonic-prototype",
   "main": "index.js",
   "scripts": {
     "start": "gulp serve"
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mindreeper2420/feature-flag-prototype"
+    "url": "https://github.com/mindreeper2420/tectonic-prototype"
   },
   "author": "Adam J. Jolicoeur",
   "license": "Apache-2.0",
